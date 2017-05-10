@@ -1,0 +1,6 @@
+before_script:
+-cd src/trabalhoTopicos
+language: java
+jdk:
+-oraclejdk8
+script: mvn clean verify –DskipTests=false –DskipITS=false –DskipSTs=false
