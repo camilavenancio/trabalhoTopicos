@@ -4,7 +4,7 @@ before_script:
 # - psql -c 'create database tecservice;' -U postgres
 # - psql -U postgres -d tecservice -f script/database/create_tables.sql
 # - psql -U postgres -d tecservice -f script/database/fill_tables.sql
- - cd src/trabalhoTopicos
+ - cd src/mavenproject1
 # - ls
 language: java
 jdk:
